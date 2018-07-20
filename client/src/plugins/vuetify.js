@@ -15,7 +15,8 @@ import {
   VForm,
   VCheckbox,
   VSelect,
-  VAlert
+  VAlert,
+  VDialog
 } from 'vuetify'
 import 'vuetify/src/stylus/app.styl'
 
@@ -35,7 +36,8 @@ Vue.use(Vuetify, {
     VForm,
     VCheckbox,
     VSelect,
-    VAlert
+    VAlert,
+    VDialog
   },
   theme: {
     primary: '#ee44aa',

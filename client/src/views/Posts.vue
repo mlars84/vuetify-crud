@@ -58,9 +58,7 @@ export default {
       API
         .removePost(id)
         .then(response => {
-          if (response.status == 200) {
-            this.load()
-          }
+          this.load()
         })
         .catch(error => {
           console.log(error)
